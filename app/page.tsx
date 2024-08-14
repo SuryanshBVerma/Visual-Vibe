@@ -11,7 +11,7 @@ export default function LandingPage() {
 
   const router = useRouter();
 
-  
+
   return (
     <div className="relative"> {/* Add relative positioning */}
       <BackgroundBeams />
@@ -34,7 +34,7 @@ export default function LandingPage() {
         <section className="text-center py-20 h-full">
           <h1 className="text-xl font-bold text-white mb-4">
             <TextGenerateEffect words="Connect Seamlessly"/>
-            <TextGenerateEffect words="Anytime , Anywhere 🗻" className="text-6xl"/>
+            <TextGenerateEffect words="Anytime , Anywhere" className="text-6xl"/>
           </h1>
           <p className="text-xl text-gray-300 mb-8">Experience high-quality video conferencing like never before</p>
 
