@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     if (upcomingCalls && upcomingCalls.length > 0) {
-      const sortedCalls = [...upcomingCalls].sort((a, b) => {
+      const sortedCalls = [...upcomingCalls].sort((a: Call, b: Call) => {
         const dateA = new Date(a.state.startsAt);
         const dateB = new Date(b.state.startsAt);
         return dateA.getTime() - dateB.getTime();
